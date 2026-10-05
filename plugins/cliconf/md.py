@@ -21,7 +21,7 @@ import json
 
 from ansible.errors import AnsibleConnectionFailure
 from ansible.module_utils.common._collections_compat import Mapping
-from ansible.module_utils._text import to_text
+from ansible.module_utils.common.text.converters import to_text
 from ansible.plugins.cliconf import CliconfBase
 
 try:
